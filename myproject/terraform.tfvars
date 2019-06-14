@@ -1,0 +1,9 @@
+regionname = "us-west-1"
+cidrblock =  "10.0.0.0/16"
+subnet_cidrblock = ["10.0.1.0/24","10.0.2.0/24"]
+subnetnames = ["PublicSubnet","PrivateSubnet"]
+amiid = "ami-063dd30adbb186909"
+machinetype = "t2.micro"
+alltraffic = "0.0.0.0/0"
+keyname = "myEc2KeyPair"
+keypair = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDLYOC2m1JuQ27GuzuWrf/l0h63mGoQ6bCDUHibVEnD2PaBxMFm4SBSvBrFEbYtCX2uTIEY/23Fpr/KzdpVDapv7XyrN2bWAH634wjUndPcqlxqkGUzNoqQJKgzz9fV5gvdCCAcBHl8NoxVQO2GeYNob3H99m3F1ZHSp+JLWdYALvih9XLvWQqWRZjDyWlRaC3TIav23D7RcEYSdVqMBfjaAf7LFiapN4k0mNKZGQTL2tebYS2vtWB8z8V/iGewcriCyTX97y+rCFSDkwrvSwDRR574YR73kvzbRHLjjU+3kK8xpFfhIZcvj1jbA4JQONDeKJqNwqjqZqpZjX6nrYxH admin@DESKTOP-KDDLHDF"
